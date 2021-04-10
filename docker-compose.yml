@@ -54,7 +54,7 @@ services:
       - 7000
 
   nginx:
-    image: arm32v7/nginx
+    image: arm32v6/nginx:alpine
     restart: always
     network_mode: "host"
     depends_on:
